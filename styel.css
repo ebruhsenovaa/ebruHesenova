@@ -51,6 +51,14 @@ img {
 	margin-left: 20px;
 }
 
+.flex > div:first-child {
+	flex: 0.6;
+	margin-right: 20px;
+}
+
+.flex > div:last-child {
+	flex: 0.4;
+	margin-left: 20px;
 button {
 	background-color: #fff;
 	border-radius: 50px;
